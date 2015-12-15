@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Add employee</title>
+		<link href="Exercise_1.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+			<h1>Add employee</h1>
+			</header>
+			<section>
+				<form action="" method="get" >
+					<div>
+						<label for="first_name" class="labels">First name:</label>
+						<input type="text" id="first_name" name="first_name" placeholder="First name" >
+					</div>
+					<div>
+						<label for="last_name" class="labels">Last name:</label>
+						<input type="text" id="last_name" name="last_name" placeholder="Last name" >
+					</div>
+					<div>
+						<label for="title" class="labels">Title:</label>
+						<input type="text" id="title" name="title" placeholder="Enter title" >
+					</div>
+					<div>
+						<p id="title">Title Of Courtesy:</p>
+						<label for="doctor">Dr.</label>
+						<input type="radio" id="doctor" name="title" value="Dr." checked="checked" >
+						<label for="mister">Mr.</label>
+						<input type="radio" id="mister" name="title" value="Mr." >
+						<label for="mistress">Mrs.</label>
+						<input type="radio" id="mistress" name="title" value="Mrs." >
+						<label for="miss">Ms.</label>
+						<input type="radio" id="miss" name="title" value="Ms." >
+					</div>
+					<div>
+						<label for="birth_date" class="labels">Birth date:</label>
+						<input type="date" id="birth_date" name="date_birth" placeholder="Month/Date/Year" >
+					</div>
+					<div>
+						<label for="hire_date" class="labels">Hire date:</label>
+						<input type="date" id="hire_date" name="date_hire" placeholder="Month/Date/Year" >
+					</div>
+					<div>
+						<label for="adress" class="labels">Adress:</label>
+						<input type="text" id="adress" name="employee_adress" placeholder="Enter adress" >
+					</div>
+					<div>
+						<label for="city" class="labels">City:</label>
+						<input type="text" id="city" name="employee_city" placeholder="Enter city" >
+					</div>
+					<div>
+						<label for="region" class="labels">Region:</label>
+						<input type="text" id="region" name="employee_region" placeholder="Enter region" >
+					</div>
+					<div>
+						<label for="postal_code" class="labels">Postal code:</label>
+						<input type="text" id="postal_code" name="code" placeholder="Enter postal code" >
+					</div>
+					<div>
+						<label for="country" class="labels">Country:</label>
+						<input type="text" id="country" name="employee_country" placeholder="Enter country" >
+					</div>
+					<div>
+						<label for="home_phone" class="labels">Home phone:</label>
+						<input type="text" id="home_phone" name="phone" placeholder="Enter home phone" >
+					</div>
+					<div>
+						<label for="extension" class="labels">Extension:</label>
+						<input type="text" id="extension" name="extension_number" placeholder="Enter the extension" >
+					</div>
+					<div>
+						<label for="notes" class="labels">Notes:</label>
+						<textarea rows="5" cols="20" id="notes" name="text">Enter notes... </textarea>
+					</div>
+					<div>
+						<label for="manager" class="labels">Manager:</label>
+						<select id="manager" name="manager">
+							<option value="1">Momchil Petrov</option>
+							<option value="2">Ivan Ivanov</option>
+							<option value="3">Ivailo Petrov</option>
+						</select>
+				    </div>
+				    <div>
+						<label for="pass" class="labels">Password:</label>
+						<input type="password" id="pass" name="password" placeholder="Enter password" >
+					</div>
+					<div>
+						<label for="repeated_pass" class="labels">Repeat password:</label>
+						<input type="password" id="repeated_pass" name="repeated_password" placeholder="Repeat the password" >
+					</div>
+					<div>
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+			</section>
+		</div>		
+	</body>
+</html>

@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+body {	
+	background-color: #bebcbd;
+}
+
+header > h1 {
+	width: 100%;
+	text-align: center;
+	padding:1.5em 0em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+header > p {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+section > p {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	padding:1.5em 0em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+a {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+	padding: 1.4em 2em;
+}
+
+a:link {
+	color: #245ad5;
+}
+
+a:visited {
+	color: #400f4d;
+}
+
+a:hover {
+	color: #3e1414;
+}

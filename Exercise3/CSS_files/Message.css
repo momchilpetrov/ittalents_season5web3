@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #bebcbd;
+}
+
+fieldset {
+	background-color:#cdc0c0;
+	width: 60%;	
+	margin: 1em auto;
+	border: 0.1em solid #a94f4f;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.5em; 
+	padding:0.8em;
+}
+
+.labels {
+	width: 30%;
+	float: left;
+}
+
+input, textarea, select {
+	background-color: #dae0e6;
+	border: 0.1em inset #656d7f; 
+	border-radius:0.2em;
+	font-size: 0.8em;
+}

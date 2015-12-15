@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+caption {
+	font-size: 30px;
+}
+
+table {
+	width: 400px;
+	height: 300px;
+	font-size: 2em;
+	border: 1px solid gray;	
+	
+}
+
+#first_row {
+	background-color: #ffebcd;
+}
+
+#second_row {
+	background-color: #5f9ea0;
+}
+
+#third_row {
+	background-color: #deb887;
+}
+
+#fourth_row {
+	background-color: #556b2f;
+}
+
+#fifth_row {
+	background-color: #ff69b4;
+}
+
+#sixth_row {
+	background-color: #ffefd5;
+}
+
+th, td {
+	border:1px solid gray;
+}

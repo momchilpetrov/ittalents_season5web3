@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#container {
+	background-color: #dbe1ff;
+	width: 100%;
+}
+h1 {
+	width: 30%;
+	margin: 0 auto;
+	text-align:left;
+}
+
+div {
+	font-size: 1.2em;
+	width: 30%;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom:0.2%;
+}
+
+label.labels {
+	float: left;
+	width: 45%;
+}
+
+input, textarea, select {
+	background-color: #dae0e6;
+	border: 0.1em inset #656d7f; 
+	border-radius:0.2em;
+}
+
+#title {
+	margin: 0;
+}
+
+h1 {
+	margin-bottom: 0.5em;
+}

@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+body {	
+	background-color: #bebcbd;
+}
+
+#first_image {
+	width: 300px;
+	height: 390px;
+}
+
+#second_image {
+	width: 300px;
+	height: 390px;
+}
+
+#third_image {
+	width: 300px;
+	height: 300px;
+}
+
+figcaption {
+	width: 300px;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.1em;
+}
+
+figure {
+	float:left;
+}
